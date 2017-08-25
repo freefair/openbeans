@@ -17,14 +17,11 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.EventSetDescriptor;
-import com.googlecode.openbeans.FeatureDescriptor;
-import com.googlecode.openbeans.IntrospectionException;
-import com.googlecode.openbeans.MethodDescriptor;
+import org.apache.harmony.beans.internal.nls.Messages;
+
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.TooManyListenersException;
-import org.apache.harmony.beans.internal.nls.Messages;
 
 public class EventSetDescriptor extends FeatureDescriptor {
     private Class<?> listenerType;

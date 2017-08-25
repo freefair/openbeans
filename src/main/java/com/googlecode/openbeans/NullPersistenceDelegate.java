@@ -17,10 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.Encoder;
-import com.googlecode.openbeans.Expression;
-import com.googlecode.openbeans.PersistenceDelegate;
-
 class NullPersistenceDelegate extends PersistenceDelegate {
     @Override
     protected Expression instantiate(Object oldInstance, Encoder out) {

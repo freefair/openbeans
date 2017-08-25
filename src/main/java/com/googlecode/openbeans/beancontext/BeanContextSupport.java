@@ -17,34 +17,13 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import java.awt.Component;
-import com.googlecode.openbeans.PropertyChangeEvent;
-import com.googlecode.openbeans.PropertyChangeListener;
-import com.googlecode.openbeans.PropertyVetoException;
-import com.googlecode.openbeans.VetoableChangeListener;
-import com.googlecode.openbeans.Visibility;
-import com.googlecode.openbeans.beancontext.BeanContext;
-import com.googlecode.openbeans.beancontext.BeanContextChild;
-import com.googlecode.openbeans.beancontext.BeanContextChildSupport;
-import com.googlecode.openbeans.beancontext.BeanContextMembershipEvent;
-import com.googlecode.openbeans.beancontext.BeanContextMembershipListener;
-import com.googlecode.openbeans.beancontext.BeanContextProxy;
-import com.googlecode.openbeans.beancontext.BeanContextSupport;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Locale;
-
+import com.googlecode.openbeans.*;
 import org.apache.harmony.beans.internal.nls.Messages;
 
-import com.googlecode.openbeans.Beans;
+import java.awt.*;
+import java.io.*;
+import java.net.URL;
+import java.util.*;
 
 /**
  * This support class implements <code>BeanContext</code> interface. 

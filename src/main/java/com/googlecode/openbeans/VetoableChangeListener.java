@@ -17,8 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.PropertyChangeEvent;
-import com.googlecode.openbeans.PropertyVetoException;
 import java.util.EventListener;
 
 public interface VetoableChangeListener extends EventListener {

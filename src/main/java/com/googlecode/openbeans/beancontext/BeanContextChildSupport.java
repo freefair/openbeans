@@ -17,23 +17,13 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import com.googlecode.openbeans.PropertyChangeEvent;
-import com.googlecode.openbeans.PropertyChangeListener;
-import com.googlecode.openbeans.PropertyChangeSupport;
-import com.googlecode.openbeans.PropertyVetoException;
-import com.googlecode.openbeans.VetoableChangeListener;
-import com.googlecode.openbeans.VetoableChangeSupport;
-import com.googlecode.openbeans.beancontext.BeanContext;
-import com.googlecode.openbeans.beancontext.BeanContextChild;
-import com.googlecode.openbeans.beancontext.BeanContextServiceAvailableEvent;
-import com.googlecode.openbeans.beancontext.BeanContextServiceRevokedEvent;
-import com.googlecode.openbeans.beancontext.BeanContextServicesListener;
+import com.googlecode.openbeans.*;
+import org.apache.harmony.beans.internal.nls.Messages;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-
-import org.apache.harmony.beans.internal.nls.Messages;
 
 public class BeanContextChildSupport implements BeanContextChild,
         BeanContextServicesListener, Serializable {

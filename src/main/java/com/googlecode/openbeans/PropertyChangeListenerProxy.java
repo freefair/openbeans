@@ -17,8 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.PropertyChangeEvent;
-import com.googlecode.openbeans.PropertyChangeListener;
 import java.util.EventListenerProxy;
 
 public class PropertyChangeListenerProxy extends EventListenerProxy implements

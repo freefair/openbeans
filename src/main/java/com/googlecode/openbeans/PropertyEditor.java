@@ -17,10 +17,7 @@
 
 package com.googlecode.openbeans;
 
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Rectangle;
-import com.googlecode.openbeans.PropertyChangeListener;
+import java.awt.*;
 
 public interface PropertyEditor {
 

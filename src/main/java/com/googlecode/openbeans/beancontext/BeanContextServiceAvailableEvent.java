@@ -17,8 +17,6 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import com.googlecode.openbeans.beancontext.BeanContextEvent;
-import com.googlecode.openbeans.beancontext.BeanContextServices;
 import java.util.Iterator;
 @SuppressWarnings("unchecked")
 public class BeanContextServiceAvailableEvent extends BeanContextEvent {

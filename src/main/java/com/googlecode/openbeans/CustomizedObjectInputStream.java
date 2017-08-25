@@ -17,13 +17,13 @@
 
 package com.googlecode.openbeans;
 
+import org.apache.harmony.beans.internal.nls.Messages;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectStreamClass;
 import java.lang.reflect.Array;
-
-import org.apache.harmony.beans.internal.nls.Messages;
 
 /**
  * Customized object input stream that allows to read objects by specified class

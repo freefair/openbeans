@@ -17,8 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.PropertyEditor;
-import com.googlecode.openbeans.PropertyEditorManager;
 import java.util.HashMap;
 import java.util.Map;
 

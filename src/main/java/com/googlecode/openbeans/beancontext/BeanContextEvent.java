@@ -17,7 +17,6 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import com.googlecode.openbeans.beancontext.BeanContext;
 import java.util.EventObject;
 
 public abstract class BeanContextEvent extends EventObject {

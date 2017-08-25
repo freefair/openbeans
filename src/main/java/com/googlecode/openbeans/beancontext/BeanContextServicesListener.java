@@ -17,9 +17,6 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import com.googlecode.openbeans.beancontext.BeanContextServiceAvailableEvent;
-import com.googlecode.openbeans.beancontext.BeanContextServiceRevokedListener;
-
 public interface BeanContextServicesListener extends
         BeanContextServiceRevokedListener {
 

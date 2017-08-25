@@ -20,7 +20,6 @@ package com.googlecode.openbeans.beancontext;
 import com.googlecode.openbeans.PropertyChangeListener;
 import com.googlecode.openbeans.PropertyVetoException;
 import com.googlecode.openbeans.VetoableChangeListener;
-import com.googlecode.openbeans.beancontext.BeanContext;
 
 public interface BeanContextChild {
 

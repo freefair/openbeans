@@ -18,24 +18,12 @@
 package com.googlecode.openbeans;
 
 import java.awt.font.TextAttribute;
-import com.googlecode.openbeans.ArrayPersistenceDelegate;
-import com.googlecode.openbeans.BeanInfo;
-import com.googlecode.openbeans.DefaultPersistenceDelegate;
-import com.googlecode.openbeans.ExceptionListener;
-import com.googlecode.openbeans.Expression;
-import com.googlecode.openbeans.Introspector;
-import com.googlecode.openbeans.NullPersistenceDelegate;
-import com.googlecode.openbeans.PersistenceDelegate;
-import com.googlecode.openbeans.ProxyPersistenceDelegate;
-import com.googlecode.openbeans.Statement;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.Collection;
 import java.util.Date;
 import java.util.Hashtable;
 import java.util.IdentityHashMap;
-import java.util.Map;
 
 /**
  * The <code>Encoder</code>, together with <code>PersistenceDelegate</code> s,

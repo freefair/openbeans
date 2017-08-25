@@ -17,7 +17,6 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import com.googlecode.openbeans.beancontext.BeanContextServiceRevokedEvent;
 import java.util.EventListener;
 
 public interface BeanContextServiceRevokedListener extends EventListener {

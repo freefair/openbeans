@@ -17,8 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.Statement;
-
 import org.apache.harmony.beans.BeansUtils;
 
 public class Expression extends Statement {

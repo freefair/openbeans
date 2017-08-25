@@ -17,9 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.FeatureDescriptor;
-import com.googlecode.openbeans.MethodDescriptor;
-import com.googlecode.openbeans.ParameterDescriptor;
 import java.lang.reflect.Method;
 
 /**

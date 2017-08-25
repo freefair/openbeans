@@ -17,23 +17,12 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.Statement;
-import java.lang.reflect.Array;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.security.PrivilegedAction;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.WeakHashMap;
-
 import org.apache.harmony.beans.BeansUtils;
 import org.apache.harmony.beans.internal.nls.Messages;
+
+import java.lang.reflect.*;
+import java.security.PrivilegedAction;
+import java.util.*;
 
 public class Statement {
 

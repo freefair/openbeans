@@ -17,9 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.Encoder;
-import com.googlecode.openbeans.Expression;
-import com.googlecode.openbeans.PersistenceDelegate;
 import java.lang.reflect.Field;
 
 class ClassPersistenceDelegate extends PersistenceDelegate {

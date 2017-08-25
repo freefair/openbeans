@@ -17,7 +17,6 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import com.googlecode.openbeans.beancontext.BeanContextServices;
 import java.util.Iterator;
 
 @SuppressWarnings("unchecked")

@@ -17,11 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.PropertyChangeEvent;
-import com.googlecode.openbeans.PropertyVetoException;
-import com.googlecode.openbeans.VetoableChangeListener;
-import com.googlecode.openbeans.VetoableChangeListenerProxy;
-import com.googlecode.openbeans.VetoableChangeSupport;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;

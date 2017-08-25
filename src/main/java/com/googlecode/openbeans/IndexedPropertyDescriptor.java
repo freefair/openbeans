@@ -17,13 +17,10 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.IndexedPropertyDescriptor;
-import com.googlecode.openbeans.IntrospectionException;
-import com.googlecode.openbeans.PropertyDescriptor;
-import java.lang.reflect.Method;
-
 import org.apache.harmony.beans.BeansUtils;
 import org.apache.harmony.beans.internal.nls.Messages;
+
+import java.lang.reflect.Method;
 
 public class IndexedPropertyDescriptor extends PropertyDescriptor {
 

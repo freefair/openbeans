@@ -17,11 +17,6 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import com.googlecode.openbeans.beancontext.BeanContext;
-import com.googlecode.openbeans.beancontext.BeanContextChild;
-import com.googlecode.openbeans.beancontext.BeanContextServiceProvider;
-import com.googlecode.openbeans.beancontext.BeanContextServiceRevokedListener;
-import com.googlecode.openbeans.beancontext.BeanContextServicesListener;
 import java.util.Iterator;
 import java.util.TooManyListenersException;
 @SuppressWarnings("unchecked")

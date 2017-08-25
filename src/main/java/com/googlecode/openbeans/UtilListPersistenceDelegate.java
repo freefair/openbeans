@@ -17,11 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.DefaultPersistenceDelegate;
-import com.googlecode.openbeans.Encoder;
-import com.googlecode.openbeans.Expression;
-import com.googlecode.openbeans.PersistenceDelegate;
-import com.googlecode.openbeans.Statement;
 import java.util.List;
 
 class UtilListPersistenceDelegate extends DefaultPersistenceDelegate {

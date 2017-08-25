@@ -17,9 +17,9 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.Encoder;
-import com.googlecode.openbeans.Expression;
-import com.googlecode.openbeans.Statement;
+import org.apache.harmony.beans.BeansUtils;
+import org.apache.harmony.beans.internal.nls.Messages;
+
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
@@ -28,14 +28,7 @@ import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Proxy;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.IdentityHashMap;
-import java.util.Iterator;
-import java.util.List;
-
-import org.apache.harmony.beans.BeansUtils;
-import org.apache.harmony.beans.internal.nls.Messages;
+import java.util.*;
 
 /**
  * <code>XMLEncoder</code> extends <code>Encoder</code> to write out the encoded

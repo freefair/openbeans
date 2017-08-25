@@ -17,13 +17,11 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import com.googlecode.openbeans.beancontext.BeanContext;
-import com.googlecode.openbeans.beancontext.BeanContextEvent;
+import org.apache.harmony.beans.internal.nls.Messages;
+
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
-
-import org.apache.harmony.beans.internal.nls.Messages;
 @SuppressWarnings("unchecked")
 public class BeanContextMembershipEvent extends BeanContextEvent {
 

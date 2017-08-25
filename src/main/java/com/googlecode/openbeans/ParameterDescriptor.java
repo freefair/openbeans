@@ -17,8 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.FeatureDescriptor;
-
 public class ParameterDescriptor extends FeatureDescriptor {
 
     public ParameterDescriptor() {

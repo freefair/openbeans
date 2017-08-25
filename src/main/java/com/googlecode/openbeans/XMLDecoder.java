@@ -17,8 +17,14 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.ExceptionListener;
-import com.googlecode.openbeans.Expression;
+import com.googlecode.openbeans.Statement.MethodComparator;
+import org.apache.harmony.beans.internal.nls.Messages;
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+import org.xml.sax.SAXParseException;
+import org.xml.sax.helpers.DefaultHandler;
+
+import javax.xml.parsers.SAXParserFactory;
 import java.io.InputStream;
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
@@ -26,16 +32,6 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Stack;
-
-import javax.xml.parsers.SAXParserFactory;
-
-import org.apache.harmony.beans.internal.nls.Messages;
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
-import org.xml.sax.helpers.DefaultHandler;
-
-import com.googlecode.openbeans.Statement.MethodComparator;
 
 /**
  * <code>XMLDecoder</code> reads objects from xml created by

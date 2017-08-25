@@ -17,7 +17,7 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import java.awt.Container;
+import java.awt.*;
 
 public interface BeanContextContainerProxy {
 

@@ -19,8 +19,7 @@ package com.googlecode.openbeans.beancontext;
 
 import com.googlecode.openbeans.DesignMode;
 import com.googlecode.openbeans.Visibility;
-import com.googlecode.openbeans.beancontext.BeanContextChild;
-import com.googlecode.openbeans.beancontext.BeanContextMembershipListener;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;

@@ -17,12 +17,7 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.FeatureDescriptor;
-import java.util.Collections;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Common base class for Descriptors.

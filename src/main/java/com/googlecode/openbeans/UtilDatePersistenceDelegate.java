@@ -17,12 +17,9 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.DefaultPersistenceDelegate;
-import com.googlecode.openbeans.Encoder;
-import com.googlecode.openbeans.Expression;
-import java.util.Date;
-
 import org.apache.harmony.beans.BeansUtils;
+
+import java.util.Date;
 
 class UtilDatePersistenceDelegate extends DefaultPersistenceDelegate {
     @Override

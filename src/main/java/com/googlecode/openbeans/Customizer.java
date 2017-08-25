@@ -17,8 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.PropertyChangeListener;
-
 public interface Customizer {
 
     public void setObject(Object bean);

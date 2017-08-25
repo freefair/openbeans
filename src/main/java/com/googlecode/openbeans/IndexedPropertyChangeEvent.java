@@ -17,8 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.PropertyChangeEvent;
-
 /**
  * A type of {@link PropertyChangeEvent} that indicates that an indexed property
  * has changed.

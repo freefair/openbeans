@@ -17,9 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.BeanDescriptor;
-import com.googlecode.openbeans.BeanInfo;
-import com.googlecode.openbeans.IntrospectionException;
 import java.util.Collections;
 import java.util.Map;
 import java.util.WeakHashMap;

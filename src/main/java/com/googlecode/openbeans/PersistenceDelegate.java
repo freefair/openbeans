@@ -18,10 +18,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.Encoder;
-import com.googlecode.openbeans.Expression;
-import com.googlecode.openbeans.PersistenceDelegate;
-
 /**
  * <code>PersistenceDelegate</code> instances write received bean objects to
  * encoders in the form of expressions and statements, which can be evaluated or

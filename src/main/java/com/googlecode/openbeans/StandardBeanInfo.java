@@ -17,29 +17,11 @@
 
 package com.googlecode.openbeans;
 
-import static com.googlecode.openbeans.Introspector.decapitalize;
-
-import java.awt.Image;
-import com.googlecode.openbeans.BeanDescriptor;
-import com.googlecode.openbeans.BeanInfo;
-import com.googlecode.openbeans.EventSetDescriptor;
-import com.googlecode.openbeans.IndexedPropertyDescriptor;
-import com.googlecode.openbeans.IntrospectionException;
-import com.googlecode.openbeans.MethodDescriptor;
-import com.googlecode.openbeans.PropertyChangeListener;
-import com.googlecode.openbeans.PropertyDescriptor;
-import com.googlecode.openbeans.PropertyVetoException;
-import com.googlecode.openbeans.SimpleBeanInfo;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.EventListener;
-import java.util.EventObject;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TooManyListenersException;
+import java.util.*;
+
+import static com.googlecode.openbeans.Introspector.decapitalize;
 
 class StandardBeanInfo extends SimpleBeanInfo {
 
@@ -209,8 +191,8 @@ class StandardBeanInfo extends SimpleBeanInfo {
     }
 
     @Override
-    public Image getIcon(int iconKind) {
-        return (Image)icon[iconKind - 1];
+    public Object getIcon(int iconKind) {
+        return icon[iconKind - 1];
     }
 
     void mergeBeanInfo(BeanInfo beanInfo, boolean force)

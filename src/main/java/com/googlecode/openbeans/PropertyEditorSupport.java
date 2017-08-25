@@ -16,17 +16,12 @@
  */
 package com.googlecode.openbeans;
 
-import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Rectangle;
-import com.googlecode.openbeans.PropertyChangeEvent;
-import com.googlecode.openbeans.PropertyChangeListener;
-import com.googlecode.openbeans.PropertyEditor;
+import org.apache.harmony.beans.internal.nls.Messages;
+
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
-import org.apache.harmony.beans.internal.nls.Messages;
 
 public class PropertyEditorSupport implements PropertyEditor {
 

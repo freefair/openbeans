@@ -17,9 +17,6 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import com.googlecode.openbeans.beancontext.BeanContextEvent;
-import com.googlecode.openbeans.beancontext.BeanContextServices;
-
 @SuppressWarnings("unchecked")
 public class BeanContextServiceRevokedEvent extends BeanContextEvent {
 

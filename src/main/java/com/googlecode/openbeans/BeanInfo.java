@@ -17,13 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import java.awt.Image;
-import com.googlecode.openbeans.BeanDescriptor;
-import com.googlecode.openbeans.BeanInfo;
-import com.googlecode.openbeans.EventSetDescriptor;
-import com.googlecode.openbeans.MethodDescriptor;
-import com.googlecode.openbeans.PropertyDescriptor;
-
 public interface BeanInfo {
 
     public static final int ICON_COLOR_16x16 = 1;
@@ -44,7 +37,7 @@ public interface BeanInfo {
 
     public BeanDescriptor getBeanDescriptor();
 
-    public Image getIcon(int iconKind);
+    public Object getIcon(int iconKind);
 
     public int getDefaultPropertyIndex();
 

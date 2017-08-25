@@ -17,31 +17,13 @@
 
 package com.googlecode.openbeans;
 
-import java.awt.Image;
-import java.awt.Toolkit;
-import com.googlecode.openbeans.BeanDescriptor;
-import com.googlecode.openbeans.BeanInfo;
-import com.googlecode.openbeans.EventSetDescriptor;
-import com.googlecode.openbeans.MethodDescriptor;
-import com.googlecode.openbeans.PropertyDescriptor;
-import java.net.URL;
-
 public class SimpleBeanInfo implements BeanInfo {
 
     public SimpleBeanInfo() {
         // expected
     }
 
-    public Image loadImage(String resourceName) {
-        if (null == resourceName) {
-            return null;
-        }
-        
-        URL file = getClass().getResource(resourceName);
-        
-        if (file != null) {
-            return Toolkit.getDefaultToolkit().createImage(file);
-        }
+    public Object loadImage(String resourceName) {
         return null;
     }
 
@@ -65,7 +47,7 @@ public class SimpleBeanInfo implements BeanInfo {
         return null;
     }
 
-    public Image getIcon(int iconKind) {
+    public Object getIcon(int iconKind) {
         return null;
     }
 

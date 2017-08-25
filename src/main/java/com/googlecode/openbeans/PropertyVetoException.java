@@ -17,8 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.PropertyChangeEvent;
-
 /**
  * Indicates that a proposed property change is unacceptable.
  */

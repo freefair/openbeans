@@ -17,7 +17,6 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import com.googlecode.openbeans.beancontext.BeanContextMembershipEvent;
 import java.util.EventListener;
 
 public interface BeanContextMembershipListener extends EventListener {

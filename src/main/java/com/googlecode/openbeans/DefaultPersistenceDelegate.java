@@ -17,21 +17,13 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.BeanInfo;
-import com.googlecode.openbeans.Encoder;
-import com.googlecode.openbeans.Expression;
-import com.googlecode.openbeans.IntrospectionException;
-import com.googlecode.openbeans.Introspector;
-import com.googlecode.openbeans.PersistenceDelegate;
-import com.googlecode.openbeans.PropertyDescriptor;
-import com.googlecode.openbeans.Statement;
+import org.apache.harmony.beans.BeansUtils;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.HashMap;
-
-import org.apache.harmony.beans.BeansUtils;
 
 /**
  * Default PersistenceDelegate for normal classes. The instances of this class

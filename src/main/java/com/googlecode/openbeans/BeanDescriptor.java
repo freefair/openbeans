@@ -17,8 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.FeatureDescriptor;
-
 /**
  * Describes a bean's global information.
  */

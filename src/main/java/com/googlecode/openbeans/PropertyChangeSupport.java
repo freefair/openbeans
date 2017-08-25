@@ -17,11 +17,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.IndexedPropertyChangeEvent;
-import com.googlecode.openbeans.PropertyChangeEvent;
-import com.googlecode.openbeans.PropertyChangeListener;
-import com.googlecode.openbeans.PropertyChangeListenerProxy;
-import com.googlecode.openbeans.PropertyChangeSupport;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;

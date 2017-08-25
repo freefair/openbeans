@@ -17,16 +17,12 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.FeatureDescriptor;
-import com.googlecode.openbeans.IntrospectionException;
-import com.googlecode.openbeans.PropertyDescriptor;
-import com.googlecode.openbeans.PropertyEditor;
+import org.apache.harmony.beans.BeansUtils;
+import org.apache.harmony.beans.internal.nls.Messages;
+
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-
-import org.apache.harmony.beans.BeansUtils;
-import org.apache.harmony.beans.internal.nls.Messages;
 
 public class PropertyDescriptor extends FeatureDescriptor {
     private Method getter;

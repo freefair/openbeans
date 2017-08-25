@@ -18,11 +18,6 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.Encoder;
-import com.googlecode.openbeans.Expression;
-import com.googlecode.openbeans.PersistenceDelegate;
-
-
 /**
  * A special internal <code>PersistenceDelegate</code> for wrapper classes of
  * primitive types like int.

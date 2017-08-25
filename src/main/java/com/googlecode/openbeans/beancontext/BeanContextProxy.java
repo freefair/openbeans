@@ -17,8 +17,6 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import com.googlecode.openbeans.beancontext.BeanContextChild;
-
 public interface BeanContextProxy {
 
     public BeanContextChild getBeanContextProxy();

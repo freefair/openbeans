@@ -17,11 +17,9 @@
 
 package com.googlecode.openbeans;
 
-import com.googlecode.openbeans.BeanInfo;
-import com.googlecode.openbeans.EventHandler;
-import com.googlecode.openbeans.IntrospectionException;
-import com.googlecode.openbeans.Introspector;
-import com.googlecode.openbeans.PropertyDescriptor;
+import org.apache.harmony.beans.BeansUtils;
+import org.apache.harmony.beans.internal.nls.Messages;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -30,9 +28,6 @@ import java.security.AccessControlContext;
 import java.security.AccessController;
 import java.security.PrivilegedAction;
 import java.util.StringTokenizer;
-
-import org.apache.harmony.beans.BeansUtils;
-import org.apache.harmony.beans.internal.nls.Messages;
 
 public class EventHandler implements InvocationHandler {
 
