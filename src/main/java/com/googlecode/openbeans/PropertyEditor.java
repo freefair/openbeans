@@ -17,11 +17,10 @@
 
 package com.googlecode.openbeans;
 
-import java.awt.*;
 
 public interface PropertyEditor {
 
-    public void paintValue(Graphics gfx, Rectangle box);
+    public void paintValue(Object gfx, Object box);
 
     public void setAsText(String text) throws IllegalArgumentException;
 
@@ -39,7 +38,7 @@ public interface PropertyEditor {
 
     public void addPropertyChangeListener(PropertyChangeListener listener);
 
-    public Component getCustomEditor();
+    public Object getCustomEditor();
 
     public boolean supportsCustomEditor();
 

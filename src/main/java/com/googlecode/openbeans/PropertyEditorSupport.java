@@ -18,7 +18,6 @@ package com.googlecode.openbeans;
 
 import org.apache.harmony.beans.internal.nls.Messages;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -42,7 +41,7 @@ public class PropertyEditorSupport implements PropertyEditor {
         source = this;
     }
 
-    public void paintValue(Graphics gfx, Rectangle box) {
+    public void paintValue(Object gfx, Object box) {
         // expected
     }
 
@@ -95,7 +94,7 @@ public class PropertyEditorSupport implements PropertyEditor {
         listeners.add(listener);
     }
 
-    public Component getCustomEditor() {
+    public Object getCustomEditor() {
         return null;
     }
 

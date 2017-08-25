@@ -17,9 +17,8 @@
 
 package com.googlecode.openbeans.beancontext;
 
-import java.awt.*;
 
 public interface BeanContextChildComponentProxy {
 
-    public Component getComponent();
+    public Object getComponent();
 }
